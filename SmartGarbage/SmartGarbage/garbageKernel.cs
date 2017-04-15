@@ -17,7 +17,7 @@ namespace SmartGarbage
                 int cmd = readSerail.Serial("COM3", 9600);
 
                 if(cmd != 0)
-                    speech.Synthesizer(readSerail.Serial("COM3", 9600));
+                    speech.Synthesizer(cmd);
             }
         }
     }
